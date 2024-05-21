@@ -9,9 +9,15 @@ body {
 }
 
 .topbar,
-.meat {
-    margin-left: 30px;
-    margin-right: 30px;
+.meat,
+.para,
+.sigbox,
+.dabox {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 
@@ -25,7 +31,10 @@ body {
 .topbar {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 100px;
+    width: 1000px;
+    /* need to figure out this width thing so the flex works properly */
+    gap: 5em;
+    margin-top: 20px;
 }
 
 .header-list{
@@ -33,7 +42,7 @@ body {
     justify-content: space-between;
     gap: 1em;
     font-size: 18px;
-    color: #e5e7eb;   
+    color: #e5e7eb;
 }
 
 ul {
@@ -43,7 +52,11 @@ ul {
 
 .meat {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+ 
+    align-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .left {
@@ -52,6 +65,11 @@ ul {
     align-items: flex-start;
     max-width: 450px;
     margin-right: 60px;
+}
+
+.pic {
+    display: flex;
+    max-width: 425px;
 }
 
 h1 {
@@ -86,6 +104,7 @@ button {
     align-items: center;
     background-color: pink;
     width: 100%;
+    padding-bottom: 50px;
 }
 
 h3 {
@@ -107,3 +126,63 @@ h3 {
     text-align: center;
     max-width: 200px;
 }
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.sigbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sigleft {
+    width: 600px;
+}
+
+.sig {
+    font-style: normal;
+    justify-content: end;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.section4 {
+    display: flex;
+    background-color: green;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+
+.dabox {
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #3882f6;
+    border-radius: 8px;
+}
+
+.leftside {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    justify-content: center;
+}
+
+.dabut {
+    border-color: white;
+    border-width: 2px;
+}
+
