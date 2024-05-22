@@ -1,5 +1,4 @@
 body {
-    background-color: aqua;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -24,7 +23,7 @@ body {
 .section1 {
     display: flex;
     flex-direction: column;
-    background-color: green;
+    background-color: #1f2937;
     width: 100%;
 }
 
@@ -84,6 +83,7 @@ h1 {
     flex-wrap: wrap;
     font-size: 18px;
     color: #e5e7eb;
+    margin-bottom: 8px;
 }
 
 button {
@@ -94,7 +94,6 @@ button {
     border-width: 1px;
     font-weight: 600;
     font-size: 18px;
-    margin-top: 10px;
 }
 
 .section2 {
@@ -102,7 +101,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: pink;
+    background-color: white;
     width: 100%;
     padding-bottom: 50px;
 }
@@ -125,6 +124,10 @@ h3 {
     flex-direction: column;
     text-align: center;
     max-width: 200px;
+}
+
+.underbox {
+    margin-top: 10px;
 }
 
 .section3 {
@@ -158,10 +161,10 @@ h3 {
 
 .section4 {
     display: flex;
-    background-color: green;
+    background-color: white;
     width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 70px;
+    padding-bottom: 70px;
     justify-content: center;
 }
 
@@ -169,20 +172,49 @@ h3 {
     display: flex;
     width: 800px;
     justify-content: space-between;
-    padding: 40px;
+    padding: 30px;
     background-color: #3882f6;
-    border-radius: 8px;
+    border-radius: 6px;
 }
 
 .leftside {
     display: flex;
     flex-direction: column;
-    padding-left: 25px;
+    margin-left: 50px;
     justify-content: center;
 }
 
 .dabut {
     border-color: white;
     border-width: 2px;
+    margin-right: 50px;
 }
+
+.lefttop {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 2px;
+}
+
+.leftbot {
+    font-size: 10px;
+    color: white;
+    font-weight: 100;
+}
+
+.section5 {
+    display: flex;
+    background-color: #1f2937;
+    width: 100%;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer {
+    font-size: 10px;
+    color: white;
+}
+
 
